@@ -30,6 +30,8 @@ The VMs/K8s and other resources are in Azure.
 
 - [x] - Configure and connect self hosted agents to agent pool and run pipelines on them.
 
+- [x] - Configure agents in GCP and Azure.
+
 - [ ] - Create Template and setup an application to use the template.
 
 - [ ] - Setup build of Java and NodeJS with multiple versions

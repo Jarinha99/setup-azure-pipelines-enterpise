@@ -11,6 +11,6 @@ tar -xzf vsts-agent-linux-x64-4.266.2.tar.gz
 
 # After Run
 
-# 1. Setup enviroments variables (AZP_URL / AZP_TOKEN)
-# 2. run ./setup.sh
+# 1. Setup enviroments variables on setup.sh file (AZP_URL / AZP_TOKEN)
+# 2. run sudo ./setup.sh
 

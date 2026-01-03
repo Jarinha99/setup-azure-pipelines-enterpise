@@ -1,5 +1,11 @@
 #!/bin/bash
+# Before Run use
+# chmod +x setup.sh
 set -e
+
+export AZP_TOKEN="seu-pat-token-aqui"
+export AZP_URL="https://dev.azure.com/sua-organizacao"
+export AZP_POOL="Linux-Docker-Pool"
 
 if [ -z "$AZP_URL" ]; then
   echo "Error: AZP_URL não definida"
