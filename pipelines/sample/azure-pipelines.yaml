@@ -1,0 +1,17 @@
+# test-service-connection.yml
+trigger: none
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - task: AzureCLI@2
+    displayName: 'Test Azure Connection'
+    inputs:
+      azureSubscription: 'subscription-main'
+      scriptType: 'bash'
+      scriptLocation: 'inlineScript'
+      inlineScript: |
+        echo "Testing Azure connection..."
+        az account show
+        az group list --output table
