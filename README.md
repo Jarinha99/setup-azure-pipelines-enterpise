@@ -14,13 +14,13 @@ The VMs/K8s and other resources are in Azure.
 
 - [x] - Azure Devops with agents building a pipeline from azure-pipelines.yaml.
 
-- [] - Setup steps for run SonarQube, Unit Tests, Build, and Deploy on Kuberentes on multiple enviroments (DEV/QA/PRD).
+- [ ] - Setup steps for run SonarQube, Unit Tests, Build, and Deploy on Kuberentes on multiple enviroments (DEV/QA/PRD).
 
-- [] - Unique template of pipeline used by some APIs with different technologies and versions, in a simplified and parameterized way.
+- [ ] - Unique template of pipeline used by some APIs with different technologies and versions, in a simplified and parameterized way.
 
-- [] - Blue/Green Deploy
+- [ ] - Blue/Green Deploy
 
-- [] - Canary Deploy
+- [ ] - Canary Deploy
 
 # Steps
 
@@ -30,10 +30,10 @@ The VMs/K8s and other resources are in Azure.
 
 - [x] - Configure and connect self hosted agents to agent pool and run pipelines on them.
 
-- [] - Create Template and setup an application to use the template.
+- [ ] - Create Template and setup an application to use the template.
 
-- [] - Setup build of Java and NodeJS with multiple versions
+- [ ] - Setup build of Java and NodeJS with multiple versions
 
-- [] - Setup unit tests step with sonarqube analysis of coverage and code smells.
+- [ ] - Setup unit tests step with sonarqube analysis of coverage and code smells.
 
-- [] - Setup deploy on kubernetes on multiple environments
+- [ ] - Setup deploy on kubernetes on multiple environments
